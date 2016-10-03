@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		4DCF0CD61DA28CDD00323A4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCF0CD51DA28CDD00323A4F /* AppDelegate.swift */; };
-		4DCF0CD81DA28CDD00323A4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCF0CD71DA28CDD00323A4F /* ViewController.swift */; };
 		4DCF0CDB1DA28CDD00323A4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF0CD91DA28CDD00323A4F /* Main.storyboard */; };
 		4DCF0CDD1DA28CDD00323A4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF0CDC1DA28CDD00323A4F /* Assets.xcassets */; };
 		4DCF0CE01DA28CDD00323A4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCF0CDE1DA28CDD00323A4F /* LaunchScreen.storyboard */; };
+		4DCF0CE81DA291A900323A4F /* ComputerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCF0CE71DA291A900323A4F /* ComputerList.swift */; };
+		4DCF0CEA1DA2970400323A4F /* ComputerDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCF0CE91DA2970400323A4F /* ComputerDetail.swift */; };
+		4DCF0D0A1DA297C100323A4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCF0D091DA297C100323A4F /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4DCF0CD21DA28CDD00323A4F /* Navigation App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCF0CD51DA28CDD00323A4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DCF0CD71DA28CDD00323A4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4DCF0CDA1DA28CDD00323A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DCF0CDC1DA28CDD00323A4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DCF0CDF1DA28CDD00323A4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DCF0CE11DA28CDD00323A4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DCF0CE71DA291A900323A4F /* ComputerList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerList.swift; sourceTree = "<group>"; };
+		4DCF0CE91DA2970400323A4F /* ComputerDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerDetail.swift; sourceTree = "<group>"; };
+		4DCF0D091DA297C100323A4F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../ddfd/ddfd/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +58,11 @@
 		4DCF0CD41DA28CDD00323A4F /* Navigation App */ = {
 			isa = PBXGroup;
 			children = (
+				4DCF0D091DA297C100323A4F /* ViewController.swift */,
 				4DCF0CD51DA28CDD00323A4F /* AppDelegate.swift */,
-				4DCF0CD71DA28CDD00323A4F /* ViewController.swift */,
 				4DCF0CD91DA28CDD00323A4F /* Main.storyboard */,
+				4DCF0CE91DA2970400323A4F /* ComputerDetail.swift */,
+				4DCF0CE71DA291A900323A4F /* ComputerList.swift */,
 				4DCF0CDC1DA28CDD00323A4F /* Assets.xcassets */,
 				4DCF0CDE1DA28CDD00323A4F /* LaunchScreen.storyboard */,
 				4DCF0CE11DA28CDD00323A4F /* Info.plist */,
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4DCF0CD81DA28CDD00323A4F /* ViewController.swift in Sources */,
+				4DCF0CEA1DA2970400323A4F /* ComputerDetail.swift in Sources */,
+				4DCF0CE81DA291A900323A4F /* ComputerList.swift in Sources */,
+				4DCF0D0A1DA297C100323A4F /* ViewController.swift in Sources */,
 				4DCF0CD61DA28CDD00323A4F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
