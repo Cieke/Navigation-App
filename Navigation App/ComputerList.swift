@@ -15,7 +15,7 @@ class ComputerList: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        computers = ["Mac Plus", "Bondi iMac", "iMac Flat Panel" , "Mac Pro" , "Mac Mini" , "iMac Aluminium"]
+      //  computers = ["Mac Plus", "Bondi iMac", "iMac Flat Panel" , "Mac Pro" , "Mac Mini" , "iMac Aluminium"]
        
     }
 

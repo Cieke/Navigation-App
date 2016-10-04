@@ -25,7 +25,7 @@
         <!--Menu-->
         <scene sceneID="ixB-jJ-Pgb">
             <objects>
-                <tableViewController title="Menu" id="zDd-Q9-SUA" sceneMemberID="viewController">
+                <tableViewController title="Menu" id="zDd-Q9-SUA" customClass="ViewController" customModule="Navigation_App" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" id="tQV-Z8-Q0F">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -69,6 +69,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="FB5-Vh-9bm" kind="show" identifier="Portable" id="3qU-7Z-qsr"/>
+                                        </connections>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
@@ -122,7 +125,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gRR-mz-tmn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="316" y="109.29535232383809"/>
+            <point key="canvasLocation" x="302" y="98"/>
         </scene>
         <!--Computer Detail-->
         <scene sceneID="epd-rP-JYP">
@@ -157,7 +160,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wjL-v4-FGo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1101.5999999999999" y="106.59670164917542"/>
+            <point key="canvasLocation" x="1098" y="98"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="EkZ-rp-Gpc"/>
+    </inferredMetricsTieBreakers>
 </document>
